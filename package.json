@@ -1,6 +1,6 @@
 {
   "name": "load-my-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodejs module for validation and loading config file",
   "main": "index.js",
   "scripts": {
