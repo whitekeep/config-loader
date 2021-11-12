@@ -22,7 +22,7 @@ function loadConfig(config_folder) {
   const log = new Logger(config_default.logger, 'ConfigLoader');
 
   try {
-    var config = require('../../config/config.json');
+    var config = require(`${config_folder}/config.json`);
     if (config.config_validate == true) {
       if (!validate(config)) {
         throw validate.errors;
