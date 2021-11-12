@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/whitekeep/load-my-config/issues"
   },
-  "homepage": "https://github.com/whitekeep/load-my-config#readme"
+  "homepage": "https://github.com/whitekeep/load-my-config#readme",
+  "dependencies": {
+    "ajv": "^8.7.1"
+  }
 }
